@@ -1,7 +1,46 @@
-div {
-  display: flex;
+* {
+  margin: auto;
 }
 
-h1 {
+main {
+  justify-content: center;
+  margin: auto;
+}
+
+button {
+  color: transparent;
+}
+
+.card {
+  border: 2px solid white;
+  padding: 2rem;
+  border-radius: 12px;
+  align-items: ;
+}
+
+.counter {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.counter p {
+  font-size: 1.5rem;
+  width: fit-content;
+  height: max-content;
   color: white;
+  font-weight: bold;
+}
+
+.counter img {
+  background-color: transparent;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  
 }
