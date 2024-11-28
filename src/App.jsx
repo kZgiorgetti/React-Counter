@@ -21,7 +21,7 @@ function App() {
 
 
   return (
-    <main className='card'>
+    <div className='card'>
       <div className='counter'>
         <img src="../public/react.svg" alt="" />
         <p>Contador: {count}</p>
@@ -31,7 +31,7 @@ function App() {
         <ResetButton handleResetClick={handleReset}/>
         <AddButton handleAddClick={handleAdd}/>
       </div>
-    </main>
+    </div>
   )
 }
 
